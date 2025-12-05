@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lists in HTML</title>
 </head>
 <body>
     
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- ol>li*3 -->
+      <!-- με reversed γινεται με φθινουσα σειρα -->
+    <ol type="i" reversed> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- με start ξεκινάω αρίθμηση από εκεί που θέλω -->
+    <ol start="15">
+        <li>Data</li>
+        <li>Data</li>
+        <li>Data</li>
+        <li>Data</li>
+        <li>Data</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>What is HTML</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis quisquam minus corrupti quod molestiae nihil porro soluta accusantium, blanditiis consequuntur dolorem at voluptates neque reprehenderit laboriosam officia qui sequi. Nesciunt?</dd>
+
+        <dt>What is CSS</dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid exercitationem dolores quia quam quis, minima repellendus voluptate nihil cum necessitatibus nostrum sunt quaerat consequuntur magni dicta sit! Vero, suscipit eveniet?</dd>
+    </dl>
+
+    <h2>Ordered & Unordered Lists</h2>
+    <ul>
+        <li>HTML
+            <ol>
+                <li>Basic Tags</li>
+                <li>Heading</li>
+                <li>Tables</li>
+            </ol>
+        </li>
+        <li>CSS
+            <ol>
+                <li>Selectors</li>
+                <li>Attributes</li>
+            </ol>
+        </li>    
+    </ul>
+
+    <!-- ul>li*3>ol>li*2 -->
+    <ul>
+        <li>
+            <ol>
+                <li></li>
+                <li></li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li></li>
+                <li></li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li></li>
+                <li></li>
+            </ol>
+        </li>
+    </ul>
+
 </body>
 </html>
